@@ -91,16 +91,41 @@ font-size: 20px;
 }
 
 .left-text a{
-    background-color: var(--Very-darkblue);
+    background-color: var(--Soft-red);
+    font-weight: 700;
     padding: 15px 30px;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--Off-white);
 }
 .left-text a:hover{
-    background-color: var(--Soft-red);
+    background-color: var(--Very-darkblue);
 }
 
+
+
+.bottom img{
+    width: 70px;
+}
+.bottom h1{
+    opacity: 50%;
+    font-size: 20px;
+    font-weight: 700;
+}
+.bottom span{
+    font-weight: 700;
+    
+}
+.bottom{
+    display: flex;
+    padding:20px;
+}
+.line{
+    display: flex;
+}
+.bottom .flex{
+   margin:15px;
+}
 
 
     .attribution { 
