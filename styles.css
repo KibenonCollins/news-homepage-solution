@@ -27,12 +27,11 @@ body{
     height: 100vh;
     background-color: var(--Off-white);
 }
+main{
+    padding: 50px
+}
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; }
-.attribution a { 
-    color: hsl(228, 45%, 44%); }
+
 
    /* Navbar style */
  .topnav{
@@ -47,7 +46,41 @@ text-align: center;
 padding: 14px 16px;
 text-decoration: none;
     }
-    
+
  .topnav a:hover{
         color: var(--Soft-red);
     }
+
+.bright{
+    font-weight: 800;
+    font-size: 30px;
+}   
+.left-section img{
+    width:50%;
+} 
+
+.right-section{
+background-color: var(--Very-darkblue);
+color: var(--Off-white);
+display: block;
+padding: 25px;
+}
+.right-section h1{
+    color: var(--Softorange);
+    padding: 15px;
+}
+.right-section span{
+font-weight: 700;
+}
+.right-section p{
+    opacity: 70%;
+}
+
+
+
+
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); }
