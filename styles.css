@@ -24,6 +24,8 @@
 body{
     font-family: 'Inter', sans-serif;
     font-size: 15px;
+    height: 100vh;
+    background-color: var(--Off-white);
 }
 
 .attribution { 
@@ -32,15 +34,20 @@ body{
 .attribution a { 
     color: hsl(228, 45%, 44%); }
 
-   
+   /* Navbar style */
  .topnav{
 background-color: var(--Off-white);
 overflow: hidden;
     }
+
 .topnav a{
-float:none;
+float:right;
 color: var(--Very-darkblue);
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
+    }
+    
+ .topnav a:hover{
+        color: var(--Soft-red);
     }
