@@ -60,6 +60,7 @@ text-decoration: none;
     
 } 
 
+
 .right-section{
 background-color: var(--Very-darkblue);
 color: var(--Off-white);
@@ -84,6 +85,21 @@ font-size: 20px;
     color: var(--Softorange);
 }
 
+.left-text{
+    opacity: 70%;
+    padding: 5px;
+}
+
+.left-text a{
+    background-color: var(--Very-darkblue);
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--Off-white);
+}
+.left-text a:hover{
+    background-color: var(--Soft-red);
+}
 
 
 
