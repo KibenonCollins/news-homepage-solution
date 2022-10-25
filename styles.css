@@ -57,6 +57,7 @@ text-decoration: none;
 }   
 .left-section img{
     width:50%;
+    
 } 
 
 .right-section{
@@ -67,13 +68,20 @@ padding: 25px;
 }
 .right-section h1{
     color: var(--Softorange);
-    padding: 15px;
+ 
 }
-.right-section span{
+.right-section .cars{
 font-weight: 700;
+padding: 10px 0;
+font-size: 20px;
 }
 .right-section p{
     opacity: 70%;
+   
+
+}
+.cars:hover{
+    color: var(--Softorange);
 }
 
 
