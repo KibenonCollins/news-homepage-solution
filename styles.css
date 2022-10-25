@@ -26,5 +26,21 @@ body{
     font-size: 15px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+
+   
+ .topnav{
+background-color: var(--Off-white);
+overflow: hidden;
+    }
+.topnav a{
+float:none;
+color: var(--Very-darkblue);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+    }
