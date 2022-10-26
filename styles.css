@@ -31,7 +31,7 @@ body{
 
 }
 main{
-  padding: 100px;
+
     
 }
 
@@ -40,15 +40,18 @@ main{
    /* Navbar style */
  .topnav{
 background-color: var(--Off-white);
-overflow: hidden;
+
+float: right;
     }
 
 .topnav a{
-float:right;
+
+align-items: center;
+justify-content: space-between;
 color: var(--Very-darkblue);
-text-align: center;
-padding: 14px 16px;
+padding: 20px;
 text-decoration: none;
+
     }
 
  .topnav a:hover{
@@ -152,6 +155,8 @@ font-size: 20px;
 }
 .bottom-container{
     display: flex;
+    justify-content: center;
+ 
 }
 
 
