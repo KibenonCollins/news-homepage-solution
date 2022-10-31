@@ -59,18 +59,21 @@ margin: auto;
         justify-content: space-between;
       }
 
-.topnav a{
-
-align-items: center;
-justify-content: space-between;
+.topnav a
+{
 color: var(--Very-darkblue);
 padding: 20px;
 text-decoration: none;
-
-    }
+ }
 
  .topnav a:hover{
         color: var(--Soft-red);
+    }
+    .menu-btn{
+ color:var(--Off-white);
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
     }
 
 .bright{
